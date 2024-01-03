@@ -852,7 +852,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
-  padding: 20px 0px 20px 0px;
+  padding: 25px 0px 25px 0px;
   border-radius: 50px;
   border: 2px #C79288 solid;
   background: white;
