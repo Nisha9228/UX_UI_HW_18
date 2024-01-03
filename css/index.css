@@ -852,12 +852,12 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 10px;
-  padding: 25px 0px 25px 0px;
+  padding: 20px 0px 20px 0px;
   border-radius: 50px;
   border: 2px #C79288 solid;
-  background: white;
+  background: #e8bcb324;
   text-align: center;
-  height: 45vh;
+  height: auto;
   width: 100%;
   margin-bottom: 30px;
 }
@@ -865,14 +865,13 @@
 .work_image {
   text-align: center;
   max-width: 100%;
-
-  background: url(../assets/images/work_1.png)
-    no-repeat center;
+  /* background: url(../assets/images/work_1.png)
+    no-repeat center; */
 }
 
 .work_content {
   background: rgba(199, 146, 136, 0.30);
-  height: 30vh;
+  height: fit-content;
   margin: 30px;
   text-align: justify;
   padding: 20px 20px;
