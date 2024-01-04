@@ -540,6 +540,7 @@
     z-index: 112;
   }
   .frame-30 {
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -865,8 +866,6 @@
 .work_image {
   text-align: center;
   max-width: 100%;
-  /* background: url(../assets/images/work_1.png)
-    no-repeat center; */
 }
 
 .work_content {
@@ -903,4 +902,43 @@
   margin: 30px 40px;
   cursor: pointer;
 }
+.design_title {
+  padding: 20px 0px 20px 0px;
+  text-align: center;
+  margin-bottom: 30px;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.design_title_content {
+  background: rgba(199, 146, 136, 0.20);
+  padding: 20px 30px 20px 30px;
+}
+.design_title_content span {
+  font-size: 48px;
+  font-family: Baskerville Display PT Web;
+  font-weight: 400;
+  letter-spacing: 0.96px;
+  word-wrap: break-word;
+}
+.container_graphics {
+  justify-content: space-evenly;
+  border-radius: 0px;
+  border: none;
+  background: none;
+  gap: 50px;
+}
+.container_graphics > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 20px;
+  font-size: 30px;
+  border: 2px rgba(199, 146, 136, 0.20) solid;
+  background: white;
+  border-radius: 20px;
+}
+
 
