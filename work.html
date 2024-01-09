@@ -10,22 +10,26 @@
     <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montez" /> -->
     <link rel="stylesheet" href="css/index.css" />
     <script src="js/main.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <div class="main-container">
         <div class="home">
             <div class="header-menu-text" style="background: none; height: fit-content;">
-                <div class="header" style="position: relative;">
-                    <ul class="main_menu">
-                        <li class="menu"><a href="index.html">HOME</a></li>
-                        <li class="menu"><a href="work.html">MY WORK</a></li>
-                    </ul>
-                    <div class="logo"></div>
-                    <ul class="main_menu">
-                        <li class="menu"><a href="about.html">ABOUT</a></li>
-                        <li class="menu"><a href="https://drive.google.com/file/d/1aIhgyslIcoN_kWeWLP6pvG30svRfiemw/view?usp=sharing" target="_blank">RESUME</a></li>
-                    </ul>
-                </div>
+                <section style="z-index: 50; width: 100%; position: relative;" >
+                    <div class="container" >
+                        <input type="checkbox" name="toggle" id="vwa__toggle" />
+                        <label for="vwa__toggle" class="checkbtn">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <div class="logo"></div>
+                        
+                        <a href="index.html" class="item">Home</a>
+                        <a href="work.html" class="item">My Work</a>
+                        <a href="about.html" class="item">About</a>
+                        <a href="https://drive.google.com/file/d/1aIhgyslIcoN_kWeWLP6pvG30svRfiemw/view?usp=sharing" target="_blank" class="item">Resume</a>
+                     </div>
+                  </section>
             </div>
             <div class="work_title">
                 <div class="work">
@@ -182,8 +186,8 @@
                 <div class="frame-32">
                 <div class="title-33">
                     <div class="it-all-starts-with-hello">
-                    <span class="my-design" style="font-size: 80px;">It All Starts With A <br /></span>
-                    <span class="my-design process" style="font-size: 80px;">“Hello!”</span>
+                    <span class="my-design">It All Starts With A <br /></span>
+                    <span class="my-design process">“Hello!”</span>
                     </div>
                 </div>
                 <ul class="linked">
